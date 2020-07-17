@@ -8,7 +8,7 @@
 
 例如：
 ``` sql
-mysql -u store_write -p8pZoWnOnLguvLmmQT -hrm-2zeela0dj4k34987s.mysql.rds.aliyuncs.com  
+mysql -u store_write -p8********T -hrm-*************.mysql.rds.aliyuncs.com  
 ```
 然后：查看库
 ``` sql
