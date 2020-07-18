@@ -4,7 +4,7 @@ It will store some of my daily study documents.
 I hope I can keep going.
 
 
-一： 编程基础
+## 一： 编程基础
 不管是C还是C++，不管是Java还是PHP，想成为一名合格的程序员，基本的数据结构和算法基础还是要有的。下面几篇文章从思想到实现，为你梳理出常用的数据结构和经典算法。
 
 1-1 常用数据结构
@@ -28,12 +28,13 @@ https://github.com/Yeats-C/learning-materials/blob/master/%E5%8D%81%E5%A4%A7%E7%
 1-4 高级数据结构
 
 B+/B-数、红黑树、图等
+https://www.jianshu.com/p/b38300fe53b4
 
 1-5 高级算法
 
 图的深度优先搜索、图的广度优先搜索、拓扑排序、Dijkstra算法（单源最短路径）、霍夫曼编码、辗转相除法、最小生成树等
 
-二：Java语言基础
+## 二：Java语言基础
 诞生不过二十余年的Java语言凭借其跨平台、面向对象、适合于分布式计算的特性，广泛应用于Web网站、移动设备、桌面应用中，并且已经连续多年稳居TOBIE编程语言排行榜前列，最近更是登上冠军宝座。Java有哪些优秀而又与众不同的地方首先一定要清楚。
 
 2-1 基础语法
@@ -120,7 +121,7 @@ File及相关类，字节流InputStream和OutputStream，字符流Reader和Write
 
 2-11 JDK1.5、JDK1.6、JDK1.7、JDK1.8每个版本都比前面一个版本添加了哪些新特性，进行了哪些提升
 
-三：数据库相关
+## 三：数据库相关
 前面说到了数据结构，数据库简单来说就像是电子化的档案柜，是按照一定的数据结构来组织、存储和管理数据的仓库。
 
 3-1理论基础
@@ -155,7 +156,7 @@ JDBC Connection、Statement、PreparedStatement、CallableStatement、ResultSet�
 
 ORM，DAO
 
-四：JavaWeb核心技术（包括部分前端）
+## 四：JavaWeb核心技术（包括部分前端）
 HTML5/Css/js原生/jQuery
 
 Ajax（跨域等）
@@ -196,7 +197,7 @@ EJB
 
 其他需要了解的，如：管理JMX、安全JCCA/JAAS、集成JCA、通信JNDI/JMS/JavaMain/JAF、SSI技术
 
-五、主流框架及工具
+## 五、主流框架及工具
 Struts1/Struts2
 
 spring（IoC、AOP等），SpringMVC
@@ -227,7 +228,7 @@ Web服务器：Tomcat、JBoss、Jetty、Resin、WebLogic、WebSphere等
 
 构建工具：Ant/Maven
 
-六、JavaWeb系统设计与架构
+## 六、JavaWeb系统设计与架构
 Java设计模式
 
 JAVA与UML建模
@@ -240,7 +241,7 @@ JAVA与UML建模
 
 大型网站负载均衡、系统调优等
 
-七、More
+## 七、More
 排错能力：
 
 应该可以根据异常信息比较快速的定位问题的原因和大致位置
