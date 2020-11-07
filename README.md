@@ -139,7 +139,7 @@ MySQL/SQLServer/Oracle以及各种NoSQL(Redis、MongoDB、Memcached、Hbase、Co
 
 3-3 优化
 
-索引原理及适用，大表查询优化，多表连接查询优化，子查询优化等
+[索引原理及适用](/Java/索引.md)，大表查询优化，多表连接查询优化，子查询优化等
 
 3-4 分库、分表、备份、迁移
 
