@@ -48,7 +48,7 @@ Collections和Arrays
 
 2-3 其他JavaAPI
 
-[String和StringBuffer](/Java/StringBufferStringBuilder String 区别.md)，System和Runtime类，Date和DateFomat类
+[String和StringBuffer](/Java/StringBufferStringBuilderString.md)，System和Runtime类，Date和DateFomat类
 
 java.lang包
 
