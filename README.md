@@ -20,8 +20,8 @@ https://www.cnblogs.com/xdecode/p/9321848.html
 
 1-3 经典算法
 
-经典排序：插入排序、冒泡排序、快排（分划交换排序）、直接选择排序、堆排序、合并排序
-https://github.com/Yeats-C/learning-materials/blob/master/%E5%8D%81%E5%A4%A7%E7%BB%8F%E5%85%B8%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93%EF%BC%88%E5%90%ABJAVA%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0).md
+经典排序：[插入排序、冒泡排序、快排（分划交换排序）、直接选择排序、堆排序、合并排序]
+(/十大经典排序算法总结（含JAVA代码实现).md)
 
 经典查找：顺序查找、二分查找、二叉排序树查找
 
@@ -89,7 +89,7 @@ Throwable/Error/Exception，Checked Exception vs. Unchecked Exception，异常�
 
 2-7 多线程
 
-线程和进程的概念
+[线程和进程的概念](/java/进程与线程的概念.md)
 
 如何在程序中创建多线程，线程安全问题，线程之间的通讯
 
