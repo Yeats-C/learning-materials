@@ -68,7 +68,7 @@ java.security包
 
 如何设计类，类的设计原则
 
-this关键字，[final关键字](/Java/final,finally,finalize.md)，static关键字
+this关键字，[final关键字](/Java/final,finally,finalize.md)，[static关键字](/Java/static分析.md)
 
 对象的实例化过程
 
