@@ -112,7 +112,7 @@ File及相关类，字节流InputStream和OutputStream，字符流Reader和Write
 
 2-11 网络编程
 
-网络通信协议原理及适用场景，Socket编程，WEB服务器的工作原理
+[网络通信协议原理及适用场景](https://www.cnblogs.com/fuguy/p/13089548.html#_lab2_1_0)，Socket编程，WEB服务器的工作原理
 
 2-11 JDK1.5、JDK1.6、JDK1.7、JDK1.8每个版本都比前面一个版本添加了哪些新特性，进行了哪些提升
 
