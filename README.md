@@ -151,6 +151,8 @@ JDBC Connection、Statement、PreparedStatement、CallableStatement、ResultSet�
 
 ORM，DAO
 
+[数据库常用语法](/database/mysql%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95.md)
+
 ## 四：JavaWeb核心技术（包括部分前端）
 HTML5/Css/js原生/jQuery
 
