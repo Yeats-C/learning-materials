@@ -1,3 +1,4 @@
+项目在linux环境打包前需将Dockerfile放入工程
 
 一、docker流程
 1、安装docker：yum -y install docker；查看版本：docker -v；更新docker版本：yum update -y
