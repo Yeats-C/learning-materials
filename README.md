@@ -227,6 +227,8 @@ Web服务器：Tomcat、JBoss、Jetty、Resin、WebLogic、WebSphere等
 
 运维：[docker运维](/docker/docker使用.md)
 
+[python部署docker遇到的问题](/python/python遇到的问题.md)
+
 ## 六、JavaWeb系统设计与架构
 Java设计模式
 
