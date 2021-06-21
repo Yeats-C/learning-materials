@@ -227,7 +227,7 @@ Web服务器：Tomcat、JBoss、Jetty、Resin、WebLogic、WebSphere等
 
 构建工具：Ant/Maven
 
-文件管理：[华为obs文件上传](/java/华为OBS文件上传.md)
+文件管理：[华为obs文件上传](/Java/华为OBS文件上传.md)
 
 运维：[docker运维](/docker/docker使用.md)
 
