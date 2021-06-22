@@ -155,6 +155,8 @@ ORM，DAO
 
 [MySql异常之group_concat字符长度限制](/SQL/MySql中group_concat字符长度限制.md)
 
+[mysql指定排序规则](/SQL/mysql指定排序规则.md)
+
 ## 四：JavaWeb核心技术（包括部分前端）
 HTML5/Css/js原生/jQuery
 
