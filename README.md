@@ -266,6 +266,7 @@ JAVA与UML建模
 [基于PostgreSQL和PostGIS的坐标转换函数，支持点、线、面的WGS84和CGCS2000与GCJ02和BD09坐标系与之间互转。](/SQL/PostGIS%E5%9D%90%E6%A0%87%E8%BD%AC%E6%8D%A2%E5%87%BD%E6%95%B0.md)
 
 [JAVA操作EXCEL](/Java/JAVA操作EXCEL.md)
+[Windows系统查询指定端口好的java进程并杀掉](/Liunx/Windows系统查询指定端口好的java进程并杀掉.md)
 
 技术管理/技术总监：
 
