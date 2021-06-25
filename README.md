@@ -200,6 +200,8 @@ EJB
 
 事务JTA
 
+[Java定时任务配置（Scheduled注解各参数详解）](/Java/Java定时任务配置（Scheduled注解各参数详解）.md)
+
 其他需要了解的，如：管理JMX、安全JCCA/JAAS、集成JCA、通信JNDI/JMS/JavaMain/JAF、SSI技术
 
 ## 五、主流框架及工具
