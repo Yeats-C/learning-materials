@@ -44,6 +44,8 @@ Collection以及各种List、Set、Queue、Map的实现以及集成关系，实�
 
 Collections和Arrays
 
+[Java遍历map中value值](/Java/Java遍历map中value值.md)
+
 2-3 其他JavaAPI
 
 [String和StringBuffer](/Java/StringBufferStringBuilderString.md)，System和Runtime类，Date和DateFomat类
