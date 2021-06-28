@@ -38,6 +38,8 @@ I hope I can keep going.
 
 Java语法格式，常量和变量，变量的作用域，方法和方法的重载，运算符，程序流程控制，各种基本数据类型及包装类
 
+[Java中List<String>与String 字符串互转](/Java/Java中List<String>与String 字符串互转.md)
+
 2-2 重要：集合类
 
 Collection以及各种List、Set、Queue、Map的实现以及集成关系，实现原理
