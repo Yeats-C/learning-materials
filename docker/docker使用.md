@@ -146,5 +146,10 @@ Mean
 * 8、删除镜像：docker rm -f ID名
 
 
+* docker启动python服务：docker run --name test --restart=always  -d pro/balgorithm-model-service:v1.1
+
+* 删除所为状态为exited的容器：docker rm $(sudo docker ps -qf status=exited)
+
+* docker删除未使用到的镜像：docker image prune -a
 
 
