@@ -290,3 +290,6 @@ JAVA与UML建模
 CTO：
 
 发展战略
+
+## 八、日常问题
+[postman测试传入ListString参数](/Java/postman测试传入ListString参数.md)
