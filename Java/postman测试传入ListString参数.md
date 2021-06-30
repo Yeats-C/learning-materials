@@ -1,4 +1,4 @@
-# postman测试传入List<String>参数
+# postman测试传入List\<String\>参数
 
 ## 第一步：设置headers
   ![image](https://user-images.githubusercontent.com/64882640/123889696-9dbb2780-d988-11eb-92bc-0e7fb662e79c.png)
