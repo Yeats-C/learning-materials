@@ -40,6 +40,8 @@ Java语法格式，常量和变量，变量的作用域，方法和方法的重�
 
 [Java中List\<String\>与String字符串互转](/Java/java中ListString与String字符串互转.md)
 
+[Object与json字符串的相互转换](/Java/Object与json字符串的相互转换.md)
+
 2-2 重要：集合类
 
 Collection以及各种List、Set、Queue、Map的实现以及集成关系，实现原理
