@@ -71,7 +71,15 @@ spring:
 * 其中spring.profiles.active：代表当前激活的配置文件，根据上面的配置，会出现三个值：dev、test和pro，在运行/打包时会自动将@profiles.active@替换为这三个值
 * 默认是dev,开发时可直接写死dev（不会替换）
 
-## 五、附-application.yml配置
+## 五、 在打包部署时，就可以指定对应的配置文件
+ ```
+ mvn clean package         默认激活开发环境配置
+mvn clean package -Pdev   指定激活开发环境配置
+mvn clean package -Ptest  指定激活测试环境配置
+mvn clean package -Ppro   指定激活生产环境配置
+ ```
+
+## 六、附-application.yml配置
 ```
 spring.application.name: photovoltaic-weixin-service
 server.port: 10113
@@ -116,7 +124,7 @@ management:
 
 ```
 
-## 六、附-application-dev.yml配置
+## 七、附-application-dev.yml配置
 ```
 spring:
   # Database settings
