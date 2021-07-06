@@ -260,6 +260,8 @@ JAVA与UML建模
 
 分布式id生成算法:[雪花算法](/Java/雪花算法.md)
 
+[springboot运行或打包时动态指定配置文件application\-\*\.yml](/Java/springboot运行或打包时动态指定配置文件application\-\*.md)
+
 ## 七、More
 排错能力：
 
