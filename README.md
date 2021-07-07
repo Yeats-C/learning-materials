@@ -303,4 +303,4 @@ CTO：
 
 [运行JAR包提示没有主清单属性解决办法](/Java/运行JAR包提示没有主清单属性解决办法.md)
 
-[java.lang.NoClassDefFoundError/: javax/xml/bind/DatatypeConverter](/Java/NoClassDefFoundError.md)
+[java.lang.NoClassDefFoundError: javax/xml/bind/DatatypeConverter](/Java/NoClassDefFoundError.md)
