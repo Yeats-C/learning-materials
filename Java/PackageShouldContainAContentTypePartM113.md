@@ -67,6 +67,8 @@ if (wb == null) {
 ```
 加上配置之后，文件没有损坏，但是回到了最初的问题 Package should contain a content type part [M1.13] 
 
+（中间还出现一次your file appears not to be a valid ole2 document，此错误是xls文件直接损坏）
+
 ### 5.最终解决
 
 将xlsx文件用office打开后重新保存。
