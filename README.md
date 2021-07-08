@@ -305,4 +305,4 @@ CTO：
 
 [java.lang.NoClassDefFoundError: javax/xml/bind/DatatypeConverter](/Java/NoClassDefFoundError.md)
 
-[Package should contain a content type part [M1.13]](Java/Package should contain a content type part [M1.13].md)
+[Package should contain a content type part \[M1.13\]](Java/Package should contain a content type part \[M1.13\].md)
