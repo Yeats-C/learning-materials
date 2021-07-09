@@ -309,4 +309,4 @@ CTO：
 
 [解决docker部署python项目pip安装慢或timeout问题](/docker/解决docker部署python项目pip安装慢或timeout问题.md)
 
-[PowerDesigner sql生成pdm且pdm的name和注释互换](/database/PowerDesigner sql生成pdm且pdm的name和注释互换.md)
+[PowerDesigner sql生成pdm且pdm的name和注释互换](/database/PowerDesigner的sql生成pdm且pdm的name和注释互换.md)
