@@ -306,3 +306,5 @@ CTO：
 [java.lang.NoClassDefFoundError: javax/xml/bind/DatatypeConverter](/Java/NoClassDefFoundError.md)
 
 [XSSFWorkbook 读取xlsx Package should contain a content type part \[M1.13\]](Java/PackageShouldContainAContentTypePartM113.md)
+
+[解决docker部署python项目pip安装慢或timeout问题](/docker/解决docker部署python项目pip安装慢或timeout问题.md)
