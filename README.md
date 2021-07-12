@@ -165,6 +165,8 @@ ORM，DAO
 
 [sql判断字符串是否包含某个字符串](/SQL/sql判断字符串是否包含某个字符串.md)
 
+[SQL查询重复记录](/SQL/SQL查询重复记录.md)
+
 ## 四：JavaWeb核心技术（包括部分前端）
 HTML5/Css/js原生/jQuery
 
