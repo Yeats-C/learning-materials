@@ -167,6 +167,8 @@ ORM，DAO
 
 [SQL查询重复记录](/SQL/SQL查询重复记录.md)
 
+[postgreSQL 数字与字符串类型转换操作](database/postgreSQL 数字与字符串类型转换操作.md)
+
 ## 四：JavaWeb核心技术（包括部分前端）
 HTML5/Css/js原生/jQuery
 
