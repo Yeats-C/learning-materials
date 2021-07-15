@@ -38,7 +38,7 @@ Dubbo 与 Feign 都依赖注册中心、负载均衡。
 
 **Feign：**
 
-利用熔断机制来实现容错的，处理的方式不一样。
+* 利用熔断机制来实现容错的，处理的方式不一样。
 
 ### 4、实际使用
 
@@ -48,7 +48,7 @@ Dubbo 与 Feign 都依赖注册中心、负载均衡。
 
 **Feign：**
 
-REST API。用HTTP确实不太看好它，奈何是Spring Cloud生态一环。
+* REST API。用HTTP确实不太看好它，奈何是Spring Cloud生态一环。
 
 
 参考：[远程调用 Dubbo 与 Feign 的区别](https://blog.csdn.net/riemann_/article/details/108762693)
