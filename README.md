@@ -268,6 +268,8 @@ JAVA与UML建模
 
 [dubbo与feign对比](/Java/dubbo与feign对比.md)
 
+[SpringCloud之Feign集成并独立使用](/Java/SpringCloud之Feign集成并独立使用.md)
+
 ## 七、More
 排错能力：
 
