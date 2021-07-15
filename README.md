@@ -266,6 +266,8 @@ JAVA与UML建模
 
 [springboot运行或打包时动态指定配置文件application\-\*\.yml](/Java/springboot运行或打包时动态指定配置文件application.md)
 
+[dubbo与feign对比](/Java/dubbo与feign对比.md)
+
 ## 七、More
 排错能力：
 
