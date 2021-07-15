@@ -1,5 +1,5 @@
 # SpringCloud之Feign集成并独立使用
-Spring boot 单独使用 Feign 发起网络请求.
+Feign 是一个声明式REST Web服务客户端，可以处理微服务间的Web服务调用。他是使用注解加接口的形式形成去调用服务的,这里主要是Spring boot 单独使用 Feign 发起网络请求.
 
 ## 一、Feign 依赖
 ```
