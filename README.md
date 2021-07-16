@@ -36,7 +36,7 @@ I hope I can keep going.
 
 2-1 基础语法
 
-Java语法格式，常量和变量，变量的作用域，方法和方法的重载，运算符，程序流程控制，各种基本数据类型及包装类
+[Java语法格式，常量和变量](https://www.runoob.com/java/java-basic-syntax.html)，变量的作用域，方法和方法的重载，运算符，程序流程控制，各种基本数据类型及包装类
 
 [Java中List\<String\>与String字符串互转](/Java/java中ListString与String字符串互转.md)
 
