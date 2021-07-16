@@ -139,7 +139,7 @@ MySQL/SQLServer/Oracle以及各种NoSQL(Redis、MongoDB、Memcached、Hbase、Co
 
 数据库创建，权限分配，表的创建，增删改查，连接，子查询
 
-触发器、存储过程、事务控制
+触发器、[存储过程](https://www.runoob.com/w3cnote/mysql-stored-procedure.html)、事务控制
 
 3-3 优化
 
