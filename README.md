@@ -305,7 +305,18 @@ CTO：
 
 发展战略
 
-## 八、日常问题
+
+## 八、扩展资料
+
+[1.一个Python项目（带前端），部署到Docker的完整过程](https://blog.csdn.net/u013282737/article/details/85233408)
+
+[2.Docker的基本使用(部署python项目)](https://www.cnblogs.com/haoabcd2010/p/10296169.html)
+
+[3.python项目导出所需要的依赖库或者整个环境的库](https://blog.csdn.net/weixin_42784553/article/details/89641704)
+
+
+
+## 九、日常问题
 
 [postman测试传入ListString参数](/Java/postman测试传入ListString参数.md)
 
