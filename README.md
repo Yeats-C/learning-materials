@@ -4,7 +4,8 @@ It will store some of my daily study documents.
 I hope I can keep going.
 
 目录：
-[ 一： 编程基础]()
+
+[ 一： 编程基础](https://github.com/Yeats-C/learning-materials/blob/master/README.md#%E4%B8%80-%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80)
 
 [二：Java语言基础]()
 
