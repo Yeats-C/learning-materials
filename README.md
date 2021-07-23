@@ -7,21 +7,21 @@ I hope I can keep going.
 
 [ 一： 编程基础](https://github.com/Yeats-C/learning-materials/blob/master/README.md#%E4%B8%80-%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80)
 
-[二：Java语言基础]()
+[二：Java语言基础](https://github.com/Yeats-C/learning-materials#%E4%BA%8Cjava%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80)
 
-[三：数据库相关]()
+[三：数据库相关](https://github.com/Yeats-C/learning-materials#%E4%B8%89%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9B%B8%E5%85%B3)
 
-[四：JavaWeb核心技术（包括部分前端）]()
+[四：JavaWeb核心技术（包括部分前端）](https://github.com/Yeats-C/learning-materials#%E5%9B%9Bjavaweb%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E5%8C%85%E6%8B%AC%E9%83%A8%E5%88%86%E5%89%8D%E7%AB%AF)
 
-[五、主流框架及工具]()
+[五、主流框架及工具](https://github.com/Yeats-C/learning-materials#%E4%BA%94%E4%B8%BB%E6%B5%81%E6%A1%86%E6%9E%B6%E5%8F%8A%E5%B7%A5%E5%85%B7)
 
-[六、JavaWeb系统设计与架构]()
+[六、JavaWeb系统设计与架构](https://github.com/Yeats-C/learning-materials#%E5%85%ADjavaweb%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E4%B8%8E%E6%9E%B6%E6%9E%84)
 
-[七、More]()
+[七、More](https://github.com/Yeats-C/learning-materials#%E4%B8%83more)
 
-[八、日常问题]()
+[八、日常问题](https://github.com/Yeats-C/learning-materials#%E5%85%AB%E6%97%A5%E5%B8%B8%E9%97%AE%E9%A2%98)
 
-[ 九、扩展资料]()
+[ 九、扩展资料](https://github.com/Yeats-C/learning-materials#%E4%B9%9D%E6%89%A9%E5%B1%95%E8%B5%84%E6%96%99)
 
 
 ## 一： 编程基础
