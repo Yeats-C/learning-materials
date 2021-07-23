@@ -169,6 +169,8 @@ ORM，DAO
 
 [postgreSQL 数字与字符串类型转换操作](/database/postgreSQL数字与字符串类型转换操作.md)
 
+[PostgreSQLONDUPLICATEKEYUPDATE.md](/SQL/PostgreSQLONDUPLICATEKEYUPDATE.md)
+
 ## 四：JavaWeb核心技术（包括部分前端）
 HTML5/Css/js原生/jQuery
 
