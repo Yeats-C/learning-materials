@@ -191,6 +191,8 @@ ORM，DAO
 
 [PostgreSQL ON DUPLICATE KEY UPDATE](/SQL/PostgreSQLONDUPLICATEKEYUPDATE.md)
 
+[MySQL查询并更新](/SQL/MySQL查询并更新.md)
+
 ## 四：JavaWeb核心技术（包括部分前端）
 HTML5/Css/js原生/jQuery
 
