@@ -83,3 +83,5 @@ EncryptAutoConfiguration中配置请求和响应的处理类，用的是Spring�
 ![image](https://user-images.githubusercontent.com/64882640/127993112-2bc5daa4-5b2d-46df-a2b5-2dc51dc2cc2b.png)
 
 通过RequestBodyAdvice和ResponseBodyAdvice就可以对请求响应做处理了，大概的原理就是这么多了。
+
+[参考：](https://github.com/yinjihuan/monkey-api-encrypt/wiki/%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3)
