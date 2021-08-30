@@ -19,3 +19,25 @@ setScaler(1,BigDecimal.ROUND_CEILING)接近正无穷大的舍入
 setScaler(1,BigDecimal.ROUND_FLOOR)接近负无穷大的舍入，数字>0和ROUND_UP作用一样，数字<0和ROUND_DOWN作用一样
 
 setScaler(1,BigDecimal.ROUND_HALF_EVEN)向最接近的数字舍入，如果与两个相邻数字的距离相等，则向相邻的偶数舍入。
+
+
+
+
+
+
+## java.lang.ArithmeticException: Non-terminating decimal expansion; no exact representable decimal result
+
+今天在写一个JAVA程序的时候出现了异常：java.lang.ArithmeticException: Non-terminating decimal expansion; no exact representable decimal result。
+
+报错语句为：
+```
+foo.divide(bar));
+```
+
+原因：
+原来JAVA中如果用BigDecimal做除法的时候一定要在divide方法中传递第二个参数，定义精确到小数点后几位，否则在不整除的情况下，结果是无限循环小数时，就会抛出以上异常。
+
+解决：
+```
+foo.divide(bar, 2, BigDecimal.ROUND_HALF_UP);
+```
