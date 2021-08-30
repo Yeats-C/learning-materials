@@ -62,6 +62,8 @@ I hope I can keep going.
 
 [Object与json字符串的相互转换](/Java/Object与json字符串的相互转换.md)
 
+[java截取字符串第一个字符](/Java/java截取字符串第一个字符.md)
+
 2-2 重要：集合类
 
 Collection以及各种List、Set、Queue、Map的实现以及集成关系，实现原理
