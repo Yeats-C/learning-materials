@@ -41,3 +41,25 @@ foo.divide(bar));
 ```
 foo.divide(bar, 2, BigDecimal.ROUND_HALF_UP);
 ```
+
+## BigDecimal比较大小
+//前提为a、b均不能为null
+if(a.compareTo(b) == -1){
+    System.out.println("a小于b");
+}
+ 
+if(a.compareTo(b) == 0){
+    System.out.println("a等于b");
+}
+ 
+if(a.compareTo(b) == 1){
+    System.out.println("a大于b");
+}
+ 
+if(a.compareTo(b) > -1){
+    System.out.println("a大于等于b");
+}
+ 
+if(a.compareTo(b) < 1){
+    System.out.println("a小于等于b");
+}
