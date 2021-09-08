@@ -283,6 +283,8 @@ Web服务器：Tomcat、JBoss、Jetty、Resin、WebLogic、WebSphere等
 
 [python部署docker遇到的问题](/python/python遇到的问题.md)
 
+[redis常用命令大全](/article/redis常用命令大全.md)
+
 ## 六、JavaWeb系统设计与架构
 Java设计模式
 
