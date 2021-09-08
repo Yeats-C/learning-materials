@@ -197,4 +197,4 @@ shutdown同步保存到服务器并关闭redis服务器
 bgrewriteaof文件压缩处理（命令）
 ```
 
-[参考文档：redis常用命令大全]（https://www.cnblogs.com/cxxjohnson/p/9072383.html）
+[参考文档redis常用命令大全](https://www.cnblogs.com/cxxjohnson/p/9072383.html)
