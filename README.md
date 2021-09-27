@@ -142,6 +142,8 @@ File及相关类，字节流InputStream和OutputStream，字符流Reader和Write
 
 反射、代理、泛型、枚举、Java正则表达式
 
+[Java8中list转map方法总结](/Java/Java8中list转map方法总结.md)
+
 2-11 网络编程
 
 [网络通信协议原理及适用场景](https://www.cnblogs.com/fuguy/p/13089548.html#_lab2_1_0)，Socket编程，WEB服务器的工作原理
