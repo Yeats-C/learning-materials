@@ -78,6 +78,8 @@ Collections和Arrays
 
 [Java遍历map中value值](/Java/Java遍历map中value值.md)
 
+[获得map中最大的value以及最大的key](/Java/获得map中最大的value以及最大的key.md)
+
 2-3 其他JavaAPI
 
 [String和StringBuffer](/Java/StringBufferStringBuilderString.md)，System和Runtime类，Date和DateFomat类
