@@ -23,6 +23,8 @@ I hope I can keep going.
 
 [ 九、扩展资料](https://github.com/Yeats-C/learning-materials#%E4%B9%9D%E6%89%A9%E5%B1%95%E8%B5%84%E6%96%99)
 
+[十、实用的小工具]()
+
 
 ## 一： 编程基础
 不管是C还是C++，不管是Java还是PHP，想成为一名合格的程序员，基本的数据结构和算法基础还是要有的。下面几篇文章从思想到实现，为你梳理出常用的数据结构和经典算法。
@@ -389,3 +391,9 @@ CTO：
 [2.Docker的基本使用(部署python项目)](https://www.cnblogs.com/haoabcd2010/p/10296169.html)
 
 [3.python项目导出所需要的依赖库或者整个环境的库](https://blog.csdn.net/weixin_42784553/article/details/89641704)
+
+
+
+## 十、实用的小工具
+
+[1.驼峰、下划线在线转换](https://www.bejson.com/convert/camel_underscore/)
