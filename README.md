@@ -23,7 +23,7 @@ I hope I can keep going.
 
 [ 九、扩展资料](https://github.com/Yeats-C/learning-materials#%E4%B9%9D%E6%89%A9%E5%B1%95%E8%B5%84%E6%96%99)
 
-[十、实用的小工具]()
+[十、实用的小工具](https://github.com/Yeats-C/learning-materials/blob/master/README.md#%E5%8D%81%E5%AE%9E%E7%94%A8%E7%9A%84%E5%B0%8F%E5%B7%A5%E5%85%B7)
 
 
 ## 一： 编程基础
