@@ -219,6 +219,8 @@ ORM，DAO
 
 [mysql查找单个字段或者多个字段重复数据](/SQL/mysql查找单个字段或者多个字段重复数据.md)
 
+[MYSQLCASEWHEN多条件同时满足的多个AND组合嵌套的情况](/SQL/MYSQLCASEWHEN多条件同时满足的多个AND组合嵌套的情况.md)
+
 ## 四：JavaWeb核心技术（包括部分前端）
 HTML5/Css/js原生/jQuery
 
