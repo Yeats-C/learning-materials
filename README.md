@@ -64,13 +64,13 @@ I hope I can keep going.
 
 [Object与json字符串的相互转换](/Java/Object与json字符串的相互转换.md)
 
-[java截取字符串第一个字符](/Java/java截取字符串第一个字符.md)
+[Java截取字符串第一个字符](/Java/java截取字符串第一个字符.md)
 
 [Java switch case语句](/Java/Javaswitchcase语句.md)
 
 [BigDecimal](/Java/BigDecimal.md)
 
-[java删除文件](/Java/java删除文件.md)
+[Java删除文件](/Java/java删除文件.md)
 
 2-2 重要：集合类
 
@@ -98,7 +98,7 @@ java.text包（各种格式化类等）
 
 java.security包
 
-[java获取当前年份、月份和日期字符串等](/Java/java获取当前年份、月份和日期字符串等.md)
+[Java获取当前年份、月份和日期字符串等](/Java/java获取当前年份、月份和日期字符串等.md)
 
 2-4 面向对象、面向接口
 
@@ -195,17 +195,17 @@ ORM，DAO
 
 [数据库常用语法](/database/mysql%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95.md)
 
-[MySql异常之group_concat字符长度限制](/SQL/MySql中group_concat字符长度限制.md)
+[MySQL异常之group_concat字符长度限制](/SQL/MySql中group_concat字符长度限制.md)
 
-[mysql指定排序规则](/SQL/mysql指定排序规则.md)
+[MySQL指定排序规则](/SQL/mysql指定排序规则.md)
 
 [MySQL自定义排序规则](/SQL/MySQL自定义排序规则.md)
 
-[sql判断字符串是否包含某个字符串](/SQL/sql判断字符串是否包含某个字符串.md)
+[MySQL判断字符串是否包含某个字符串](/SQL/sql判断字符串是否包含某个字符串.md)
 
-[SQL查询重复记录](/SQL/SQL查询重复记录.md)
+[MySQL查询重复记录](/SQL/SQL查询重复记录.md)
 
-[postgreSQL 数字与字符串类型转换操作](/database/postgreSQL数字与字符串类型转换操作.md)
+[PostgreSQL 数字与字符串类型转换操作](/database/postgreSQL数字与字符串类型转换操作.md)
 
 [PostgreSQL ON DUPLICATE KEY UPDATE](/SQL/PostgreSQLONDUPLICATEKEYUPDATE.md)
 
@@ -215,13 +215,13 @@ ORM，DAO
 
 [Mapper文件处理大于小于](/database/Mapper文件处理大于小于.md)
 
-[MYSQL获取当前时间加上一个月](/database/MYSQL获取当前时间加上一个月.md)
+[MySQL获取当前时间加上一个月](/database/MYSQL获取当前时间加上一个月.md)
 
-[mysql查找单个字段或者多个字段重复数据](/SQL/mysql查找单个字段或者多个字段重复数据.md)
+[MySQL查找单个字段或者多个字段重复数据](/SQL/mysql查找单个字段或者多个字段重复数据.md)
 
-[MYSQLCASEWHEN多条件同时满足的多个AND组合嵌套的情况](/SQL/MYSQLCASEWHEN多条件同时满足的多个AND组合嵌套的情况.md)
+[MySQLCASEWHEN多条件同时满足的多个AND组合嵌套的情况](/SQL/MYSQLCASEWHEN多条件同时满足的多个AND组合嵌套的情况.md)
 
-[mysql先排序ORDERBY后分组GROUPBY](/SQL/mysql先排序ORDERBY后分组GROUPBY.md)
+[MySQL先排序ORDERBY后分组GROUPBY](/SQL/mysql先排序ORDERBY后分组GROUPBY.md)
 
 ## 四：JavaWeb核心技术（包括部分前端）
 HTML5/Css/js原生/jQuery
@@ -349,9 +349,9 @@ JAVA与UML建模
 
 [Windows系统查询指定端口好的java进程并杀掉](/Liunx/Windows系统查询指定端口好的java进程并杀掉.md)
 
-[java中推送消息到钉钉群](/Java/java中推送消息到钉钉群.md)
+[Java中推送消息到钉钉群](/Java/java中推送消息到钉钉群.md)
 
-[java数据库动态配置定时任务](/Java/java数据库动态配置定时任务.md)
+[Java数据库动态配置定时任务](/Java/java数据库动态配置定时任务.md)
 
 技术管理/技术总监：
 
@@ -372,7 +372,7 @@ CTO：
 
 ## 八、日常问题
 
-[postman测试传入ListString参数](/Java/postman测试传入ListString参数.md)
+[Postman测试传入ListString参数](/Java/postman测试传入ListString参数.md)
 
 [SpringbootMaven项目引入钉钉机器人jar包(SDK)遇到的问题](/Java/SpringbootMaven项目引入钉钉机器人jar包(SDK)遇到的问题.md)
 
@@ -388,7 +388,7 @@ CTO：
 
 [Specified named range 'N' does not exist in the current workbook](/article/SpecifiedNamedRangeDoesNotExist.md)
 
-[java获取时间相差8小时的问题及解决方式](/Java/java获取时间相差8小时的问题及解决方式.md)
+[Java获取时间相差8小时的问题及解决方式](/Java/java获取时间相差8小时的问题及解决方式.md)
 
 
 
@@ -398,7 +398,7 @@ CTO：
 
 [2.Docker的基本使用(部署python项目)](https://www.cnblogs.com/haoabcd2010/p/10296169.html)
 
-[3.python项目导出所需要的依赖库或者整个环境的库](https://blog.csdn.net/weixin_42784553/article/details/89641704)
+[3.Python项目导出所需要的依赖库或者整个环境的库](https://blog.csdn.net/weixin_42784553/article/details/89641704)
 
 
 
