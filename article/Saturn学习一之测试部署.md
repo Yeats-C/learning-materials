@@ -66,7 +66,7 @@ $ sudo sed -i -e "s|#baseurl=http://mirror.centos.org|baseurl=http://vault.cento
 2.ERROR: Couldn't connect to Docker daemon at http+docker://localunixsocket - is it running?
 ![image](https://user-images.githubusercontent.com/64882640/155675688-a9bc95a4-32ed-4d8d-a110-244f7fb13dd5.png)
 
-服务器明明安转了docker，却找不到docker服务。
+服务器明明安装了docker，却找不到docker服务。
 
 * 查看当前docker服务状态命令
 
@@ -211,7 +211,7 @@ docker -v
 ```
 
 
-* 注意，一起环境安装好之后 通过 ./quickstart-docker.sh 启动服务时，可能出现 unknow 'saturn_console'异常
+* 注意，全部环境安装好之后 通过 ./quickstart-docker.sh 启动服务时，可能出现 unknow 'saturn_console'异常
 ![image](https://user-images.githubusercontent.com/64882640/155688294-42228827-9afc-485f-8e85-b781623921af.png)
 
 目前没有发现原因，但是重启两次就好了，判断是环境没有找到mysql服务。
