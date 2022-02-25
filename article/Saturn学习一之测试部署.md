@@ -24,13 +24,13 @@ $ ./quickstart-docker.sh
 
 quickstart-docker.sh脚本将做如下事情：
 
-** 构建基于OpenJDK7的基础镜像
-** 构建基于OpenJDK7的Saturn-Console镜像
-** 构建基于OpenJDK7的Saturn-Executor镜像
-** 启动一个ZooKeeper集群的容器
-** 启动一个Saturn-Console容器
-** 启动两个Saturn-Executor容器
-** 添加一个Java作业和一个Shell作业
+* 构建基于OpenJDK7的基础镜像
+* 构建基于OpenJDK7的Saturn-Console镜像
+* 构建基于OpenJDK7的Saturn-Executor镜像
+* 启动一个ZooKeeper集群的容器
+* 启动一个Saturn-Console容器
+* 启动两个Saturn-Executor容器
+* 添加一个Java作业和一个Shell作业
 
 启动成功后，访问Saturn-Console：http://localhost:9088
 
