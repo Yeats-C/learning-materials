@@ -211,4 +211,7 @@ docker -v
 ```
 
 
+* 注意，一起环境安装好之后 通过 ./quickstart-docker.sh 启动服务时，可能出现 unknow 'saturn_console'异常
+![image](https://user-images.githubusercontent.com/64882640/155688294-42228827-9afc-485f-8e85-b781623921af.png)
 
+目前没有发现原因，但是重启两次就好了，判断是环境没有找到mysql服务。
