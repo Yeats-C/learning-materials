@@ -62,4 +62,19 @@ export JAVA_HOME=/java/jdk/jdk1.8
 
 export PATH=$PATH:$JAVA_HOME/bin
 ```
+
 ## 8.刷新配置文件
+
+```
+source /etc/profile
+```
+
+## 9.查看环境配置是否成功
+
+```
+java -version
+```
+
+![image](https://user-images.githubusercontent.com/64882640/156135298-20350826-bc7b-499f-969e-25277f82f43f.png)
+
+出现以上信息就代表成功啦。
