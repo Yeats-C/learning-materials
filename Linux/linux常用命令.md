@@ -23,6 +23,15 @@ wq解释为：write quite
 不想保存，q
 强制退出 q!
 
+## 修改后马上刷新文件
+
+```
+source /etc/profile
+```
+
+![image](https://user-images.githubusercontent.com/64882640/156121181-4d5c3553-8437-4f4c-98ab-1a9b3f6a0977.png)
+
+
 ## rz 选择文件进行上传
 
 ## sz 文件名  
