@@ -43,5 +43,23 @@ tar -zxvf jdk-8u131-linux-x64.tar.gz
 解压完成后，会生成jdk1.8.0.131文件夹，输入命令：mv  jdk1.8.0.131  jdk1.8 重命名一下，不改名称也行，看个人习惯
 
 ```
+配置环境变量（其实就是修改文件内容）
+```
+
+![image](https://user-images.githubusercontent.com/64882640/156134377-bac2b576-724c-4bc8-820a-6f211889b523.png)
+
+
+## 7.配置环境变量（其实就是修改文件内容）
 
 ```
+vi /etc/profile
+```
+
+*  打开文件后，拉到最下面添加以下内容
+
+```
+export JAVA_HOME=/java/jdk/jdk1.8
+
+export PATH=$PATH:$JAVA_HOME/bin
+```
+## 8.刷新配置文件
