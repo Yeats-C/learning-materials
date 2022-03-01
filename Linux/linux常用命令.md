@@ -28,3 +28,10 @@ wq解释为：write quite
 ## sz 文件名  
 
 * sz后面跟文件名可以进行文件从linux上面下载
+
+## linux移动文件夹到另一个文件夹
+
+```
+mv /root/user/p05-fu /root/user/nia/p05-fu      移动p05-fu文件夹到nia文件夹下
+mv /root/user/p05-fu /root/user/p04-fu          重命名也可以这样写，将p05重命名为p04
+```
