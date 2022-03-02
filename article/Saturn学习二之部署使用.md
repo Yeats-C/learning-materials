@@ -137,3 +137,8 @@ cron表达式：作业定时表达式
 
 ![image](https://user-images.githubusercontent.com/64882640/156319622-5cca4da3-9c1f-41d0-8920-42267133d406.png)
 
+参考资料：
+
+[Saturn官方文档](https://vipshop.github.io/Saturn/#/zh-cn/3.x/quickstart)
+
+[分布式调度任务合集](https://blog.csdn.net/cmzdandan/category_8599316.html)
