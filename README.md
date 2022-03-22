@@ -264,6 +264,8 @@ EJB
 
 [Java定时任务配置（Scheduled注解各参数详解）](/Java/Java定时任务配置（Scheduled注解各参数详解）.md)
 
+[java 计算中位数方法](https://www.cnblogs.com/zhi-ming/p/10453132.html)
+
 其他需要了解的，如：管理JMX、安全JCCA/JAAS、集成JCA、通信JNDI/JMS/JavaMain/JAF、SSI技术
 
 ## 五、主流框架及工具
