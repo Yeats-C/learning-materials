@@ -275,6 +275,10 @@ spring（IoC、AOP等），SpringMVC
 
 日志：Log4j
 
+[springboot2.0整合logback日志](https://www.cnblogs.com/zhangjianbing/p/8992897.html)
+
+[LogBack日志异步推送kafka并规范日志输出格式](https://www.cnblogs.com/zhangjianbing/p/15895562.html)
+
 单元测试：JUnit
 
 消息队列：ActiveMQ、RabbitMQ等
