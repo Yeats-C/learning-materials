@@ -223,6 +223,8 @@ ORM，DAO
 
 [MySQL先排序ORDERBY后分组GROUPBY](/SQL/mysql先排序ORDERBY后分组GROUPBY.md)
 
+[Mysql5.7中使用group concat函数数据被截断的问题](https://www.jb51.net/article/136480.htm)
+
 ## 四：JavaWeb核心技术（包括部分前端）
 HTML5/Css/js原生/jQuery
 
