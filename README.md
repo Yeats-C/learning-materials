@@ -266,8 +266,6 @@ EJB
 
 [Java定时任务配置（Scheduled注解各参数详解）](/Java/Java定时任务配置（Scheduled注解各参数详解）.md)
 
-[java 计算中位数方法](https://www.cnblogs.com/zhi-ming/p/10453132.html)
-
 其他需要了解的，如：管理JMX、安全JCCA/JAAS、集成JCA、通信JNDI/JMS/JavaMain/JAF、SSI技术
 
 ## 五、主流框架及工具
@@ -337,6 +335,8 @@ JAVA与UML建模
 [SpringCloud之Feign集成并独立使用](/Java/SpringCloud之Feign集成并独立使用.md)
 
 [若依开源后台系统学习一：前后端分离后API交互如何保证数据安全性](/Java/前后端分离后API交互如何保证数据安全性.md)
+
+[java 计算中位数方法](https://www.cnblogs.com/zhi-ming/p/10453132.html)
 
 ## 七、More
 排错能力：
