@@ -412,6 +412,8 @@ CTO：
 
 [3.Python项目导出所需要的依赖库或者整个环境的库](https://blog.csdn.net/weixin_42784553/article/details/89641704)
 
+[4.windows杀死java进程命令](https://blog.csdn.net/qq_40680190/article/details/79962869)
+
 
 
 ## 十、实用的小工具
@@ -419,3 +421,5 @@ CTO：
 [1.驼峰、下划线在线转换](https://www.bejson.com/convert/camel_underscore/)
 
 [2.计算机类的电子书籍下载](https://github.com/hello-go-maker/cs-books)
+
+[3.ImgURL免费图床](https://imgurl.org/)
