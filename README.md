@@ -309,6 +309,8 @@ Web服务器：Tomcat、JBoss、Jetty、Resin、WebLogic、WebSphere等
 
 [redis常用命令大全](/article/redis常用命令大全.md)
 
+[idea如何编译maven工程](https://www.cnblogs.com/twoheads/p/9838398.html)
+
 ## 六、JavaWeb系统设计与架构
 Java设计模式
 
