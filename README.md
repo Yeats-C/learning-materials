@@ -415,3 +415,5 @@ CTO：
 ## 十、实用的小工具
 
 [1.驼峰、下划线在线转换](https://www.bejson.com/convert/camel_underscore/)
+
+[2.计算机类的电子书籍下载](https://github.com/hello-go-maker/cs-books)
