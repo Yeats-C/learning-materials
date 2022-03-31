@@ -193,6 +193,8 @@ JDBC Connection、Statement、PreparedStatement、CallableStatement、ResultSet�
 
 ORM，DAO
 
+[Mysql常用函数](/SQL/Mysql常用函数.md)
+
 [数据库常用语法](/database/mysql%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95.md)
 
 [MySQL异常之group_concat字符长度限制](/SQL/MySql中group_concat字符长度限制.md)
