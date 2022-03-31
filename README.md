@@ -406,6 +406,8 @@ CTO：
 
 [TruncatedIncorrectDOUBLEValue](/SQL/TruncatedIncorrectDOUBLEValue.md)
 
+[This function has none of DETERMINISTIC, NO SQL, or READS SQL DATA in its declaration and binary logging is enabled](/database/ThisfunctionhasnoneofDETERMINISTICNOSQLorREADSSQLDATAinitsde错误解决办法.md)
+
 
 
 ## 九、扩展资料
