@@ -342,6 +342,8 @@ JAVA与UML建模
 
 [java 计算中位数方法](https://www.cnblogs.com/zhi-ming/p/10453132.html)
 
+[若依Vue前后端分离版本改SM3加密](/article/若依Vue前后端分离版本改SM3加密.md)
+
 ## 七、More
 排错能力：
 
