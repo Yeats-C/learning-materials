@@ -414,6 +414,13 @@ CTO：
 
 [This function has none of DETERMINISTIC, NO SQL, or READS SQL DATA in its declaration and binary logging is enabled](/database/ThisfunctionhasnoneofDETERMINISTICNOSQLorREADSSQLDATAinitsde错误解决办法.md)
 
+[com.alibaba.fastjson.JSONException: not close json text, token : :](https://blog.csdn.net/you23hai45/article/details/55213761)
+
+[Spring Boot Connection is not available, request timed out after 30000ms问题排查解决](https://blog.csdn.net/wantLight/article/details/107163468)
+
+[Caused by: java.net.BindException: 地址已在使用](https://blog.csdn.net/weixin_49107940/article/details/124153307)
+
+
 
 
 ## 九、扩展资料
