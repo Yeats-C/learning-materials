@@ -231,6 +231,8 @@ ORM，DAO
 
 [mysql查看锁的方式](/SQL/mysql查看锁的方式.md)
 
+[MySql插入大量数据解决方案](https://www.cnblogs.com/qtiger/p/15919122.html)
+
 ## 四：JavaWeb核心技术（包括部分前端）
 HTML5/Css/js原生/jQuery
 
