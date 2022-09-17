@@ -365,6 +365,8 @@ JAVA与UML建模
 
 [Windows系统查询指定端口好的java进程并杀掉](/Liunx/Windows系统查询指定端口好的java进程并杀掉.md)
 
+[windows杀死java进程命令](/article/windows杀死java进程命令.md)
+
 [Java中推送消息到钉钉群](/Java/java中推送消息到钉钉群.md)
 
 [Java数据库动态配置定时任务](/Java/java数据库动态配置定时任务.md)
