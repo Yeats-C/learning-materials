@@ -229,6 +229,8 @@ ORM，DAO
 
 [Mysql正则替换](/SQL/Mysql正则替换.md)
 
+[mysql 查看锁的方式](/SQL/mysql 查看锁的方式.md)
+
 ## 四：JavaWeb核心技术（包括部分前端）
 HTML5/Css/js原生/jQuery
 
@@ -444,3 +446,4 @@ CTO：
 [2.计算机类的电子书籍下载](https://github.com/hello-go-maker/cs-books)
 
 [3.ImgURL免费图床](https://imgurl.org/)
+
