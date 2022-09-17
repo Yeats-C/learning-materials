@@ -229,7 +229,7 @@ ORM，DAO
 
 [Mysql正则替换](/SQL/Mysql正则替换.md)
 
-[mysql查看锁的方式](/SQL/mysql 查看锁的方式.md)
+[mysql查看锁的方式](/SQL/mysql查看锁的方式.md)
 
 ## 四：JavaWeb核心技术（包括部分前端）
 HTML5/Css/js原生/jQuery
