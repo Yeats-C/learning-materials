@@ -430,6 +430,8 @@ CTO：
 
 [SAXParseException](https://blog.csdn.net/qq_32331073/article/details/79941132)
 
+[MySQL Unknown table engine 'FEDERATED'](https://www.bbsmax.com/A/Ae5R6qYM5Q/)
+
 
 
 
