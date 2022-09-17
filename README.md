@@ -323,6 +323,8 @@ Web服务器：Tomcat、JBoss、Jetty、Resin、WebLogic、WebSphere等
 
 [poi注册函数](/article/poi注册函数.md)
 
+[Feign Client 超时时间配置](https://www.cnblogs.com/east7/p/15858644.html)
+
 ## 六、JavaWeb系统设计与架构
 Java设计模式
 
