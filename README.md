@@ -439,6 +439,8 @@ CTO：
 
 [4.windows杀死java进程命令](https://blog.csdn.net/qq_40680190/article/details/79962869)
 
+[5.常见的MySQL查询](http://www.artfulsoftware.com/infotree/queries.php?w=1920)
+
 
 
 ## 十、实用的小工具
