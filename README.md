@@ -327,6 +327,8 @@ Web服务器：Tomcat、JBoss、Jetty、Resin、WebLogic、WebSphere等
 
 [Feign Client 超时时间配置](https://www.cnblogs.com/east7/p/15858644.html)
 
+[springBoot项目集成apollo](/article/springBoot项目集成apollo.md)
+
 ## 六、JavaWeb系统设计与架构
 Java设计模式
 
