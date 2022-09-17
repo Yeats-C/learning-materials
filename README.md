@@ -321,6 +321,8 @@ Web服务器：Tomcat、JBoss、Jetty、Resin、WebLogic、WebSphere等
 
 [springboot配置Hikari连接池](/article/springboot配置Hikari连接池.md)
 
+[poi注册函数](/article/poi注册函数.md)
+
 ## 六、JavaWeb系统设计与架构
 Java设计模式
 
