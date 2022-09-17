@@ -319,6 +319,8 @@ Web服务器：Tomcat、JBoss、Jetty、Resin、WebLogic、WebSphere等
 
 [idea如何编译maven工程](https://www.cnblogs.com/twoheads/p/9838398.html)
 
+[springboot配置Hikari连接池](/article/springboot配置Hikari连接池.md)
+
 ## 六、JavaWeb系统设计与架构
 Java设计模式
 
