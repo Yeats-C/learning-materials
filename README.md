@@ -213,6 +213,8 @@ ORM，DAO
 
 [PostgreSQL ON DUPLICATE KEY UPDATE](/SQL/PostgreSQLONDUPLICATEKEYUPDATE.md)
 
+[PgSQL创建&删除模式](/database/PgSQL创建&删除模式.md)
+
 [MySQL查询并更新](/SQL/MySQL查询并更新.md)
 
 [MySQL日期获取：本月第一天、本月最后一天、上月第一天、上月最后一天、下月第一天、下月最后一天.....](/SQL/mysql日期获取.md)
