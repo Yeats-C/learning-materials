@@ -203,4 +203,4 @@ public class App {
 本文介绍了 5 种 List 分片的实现方法，其中最方便的实现方式是引入第三方框架，比如 Google 的 Guava、Apache 的 Commons 或者是国产开源的 Hutool 都可以，当然如果你的项目已经包含了以上任意一种，直接使用就行了。如果是简单的分片就可以考虑使用 JDK 的 Stream 或者是 List 内置的 subList 方法来实现分片功能了。
 
 
-参考链接（https://zhuanlan.zhihu.com/p/428268862）
+[参考链接](https://zhuanlan.zhihu.com/p/428268862)
