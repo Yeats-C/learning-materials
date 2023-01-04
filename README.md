@@ -82,6 +82,8 @@ Collections和Arrays
 
 [获得map中最大的value以及最大的key](/Java/获得map中最大的value以及最大的key.md)
 
+[List分片的五种方法](/Java/List分片.md)
+
 2-3 其他JavaAPI
 
 [String和StringBuffer](/Java/StringBufferStringBuilderString.md)，System和Runtime类，Date和DateFomat类
