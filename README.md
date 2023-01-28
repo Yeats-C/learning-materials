@@ -362,6 +362,8 @@ JAVA与UML建模
 
 [若依Vue前后端分离版本改SM3加密](/article/若依Vue前后端分离版本改SM3加密.md)
 
+[SpringCloud + Nacos 配合maven，进行环境（配置文件）的切换，dev/ prod/ test 三种环境](https://blog.csdn.net/jiaoqi6132/article/details/125864419)
+
 ## 七、More
 排错能力：
 
