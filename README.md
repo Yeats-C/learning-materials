@@ -237,6 +237,8 @@ ORM，DAO
 
 [MySql插入大量数据解决方案](https://www.cnblogs.com/qtiger/p/15919122.html)
 
+[SpringBoot之hikari - 史上最快连接池](https://www.jianshu.com/p/e983ac36a690)
+
 ## 四：JavaWeb核心技术（包括部分前端）
 HTML5/Css/js原生/jQuery
 
