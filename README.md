@@ -239,6 +239,12 @@ ORM，DAO
 
 [SpringBoot之hikari - 史上最快连接池](https://www.jianshu.com/p/e983ac36a690)
 
+[mysql取分组后最新的一条记录](https://blog.csdn.net/li_jian_fei/article/details/86162962?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-86162962-blog-117666287.pc_relevant_multi_platform_whitelistv4eslandingctr&spm=1001.2101.3001.4242.1&utm_relevant_index=3)
+
+[mysql判断某个字符串是否包含某个字符串的3种方法](http://t.zoukankan.com/yanggb-p-12330249.html)
+
+
+
 ## 四：JavaWeb核心技术（包括部分前端）
 HTML5/Css/js原生/jQuery
 
@@ -366,6 +372,11 @@ JAVA与UML建模
 
 [Feign Client 超时时间配置 ](https://www.cnblogs.com/east7/p/15858644.html)
 
+[微服务日志-logback读取nacos配置(完美解决加载两次问题+彩色日志)](https://blog.csdn.net/qq_18453581/article/details/119544506)
+
+[使用JAVA 操作MINIO](https://www.freesion.com/article/2182633724/)
+
+
 ## 七、More
 排错能力：
 
@@ -461,6 +472,10 @@ CTO：
 [MySQL Unknown table engine FEDERATED](https://www.bbsmax.com/A/Ae5R6qYM5Q/)
 
 [记一次mysql8报错的处理：The table /tmp/#sql~~~ is full](https://blog.csdn.net/hxiang613/article/details/125720101)
+
+[Type handler was null on parameter mapping for property '__frch_item_0'. It was either not specified](https://blog.csdn.net/li963820454/article/details/94384275)
+
+
 
 
 
