@@ -364,6 +364,8 @@ JAVA与UML建模
 
 [SpringCloud + Nacos 配合maven，进行环境（配置文件）的切换，dev/ prod/ test 三种环境](https://blog.csdn.net/jiaoqi6132/article/details/125864419)
 
+[Feign Client 超时时间配置 ](https://www.cnblogs.com/east7/p/15858644.html)
+
 ## 七、More
 排错能力：
 
@@ -453,6 +455,14 @@ CTO：
 [http://apache.org/xml/features/disallow-doctype-decl 设置为“true”时, 不允许使用 DOCTYPE](https://blog.csdn.net/qq_32331073/article/details/79941132)
 
 [poi注册函数](https://blog.csdn.net/u014677702/article/details/84836517)
+
+[Nacos 选举Leader失败处理](https://zhuanlan.zhihu.com/p/512815353)
+
+[MySQL Unknown table engine FEDERATED](https://www.bbsmax.com/A/Ae5R6qYM5Q/)
+
+[记一次mysql8报错的处理：The table /tmp/#sql~~~ is full](https://blog.csdn.net/hxiang613/article/details/125720101)
+
+
 
 
 
