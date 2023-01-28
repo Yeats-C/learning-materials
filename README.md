@@ -487,3 +487,7 @@ CTO：
 
 [6.Common MySQL Queries](http://www.artfulsoftware.com/infotree/queries.php?w=1920)
 
+[7.在线流程图](https://c.runoob.com/more/shapefly-diagram/)
+
+[8.文件对比工具](https://www.zhihu.com/question/50197504/answer/2265700815)
+
