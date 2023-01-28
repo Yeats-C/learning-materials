@@ -461,6 +461,8 @@ CTO：
 
 [5.常见的MySQL查询](http://www.artfulsoftware.com/infotree/queries.php?w=1920)
 
+[6.Damerau–Levenshtein Distance的java实现](https://blog.csdn.net/asty9000/article/details/81611463)
+
 
 
 ## 十、实用的小工具
