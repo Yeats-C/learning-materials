@@ -41,5 +41,7 @@ and rowid not in (select min(rowid) from vitae group by peopleId,seq havingcount
 * 清空临时表
 * 将重复记录查询insert到临时表
 * 记录更新数据日志
+* 4.提供接口直接查询临时表
+* 逻辑：mysql执行定时任务，每日进行重复数据查询，插入到临时表中，按照分组、分页查询数据
 
 来自：[SQL查询重复记录](https://www.cnblogs.com/1917q/p/14024972.html)
