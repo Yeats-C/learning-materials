@@ -34,4 +34,12 @@ where (a.peopleId,a.seq) in   (select peopleId,seq from vitae group by peopleId,
 and rowid not in (select min(rowid) from vitae group by peopleId,seq havingcount(*)>1)
 ```
 
+### 6、查询重复记录需求实现思路
+* 1.创建临时表，承载重复记录
+* 2.建立定时任务，凌晨时分触发函数
+* 3.函数中，执行以下操作
+* 清空临时表
+* 将重复记录查询insert到临时表
+* 记录更新数据日志
+
 来自：[SQL查询重复记录](https://www.cnblogs.com/1917q/p/14024972.html)
