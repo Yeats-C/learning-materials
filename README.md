@@ -84,6 +84,8 @@ Collections和Arrays
 
 [List分片的五种方法](/Java/List分片.md)
 
+[Java实际开发中list.sort()集合排序详解之多条件排序、分页、空值null的最常用解决方案](https://www.exyb.cn/news/show-46537.html?action=onClick)
+
 2-3 其他JavaAPI
 
 [String和StringBuffer](/Java/StringBufferStringBuilderString.md)，System和Runtime类，Date和DateFomat类
