@@ -37,13 +37,13 @@ I hope I can keep going.
 
 [算法时间复杂度和空间复杂度的分析计算](https://cloud.tencent.com/developer/article/1011499)
 
-算法思想：递推、递归、穷举、贪心、分治、动态规划、迭代、分枝界限
+[算法思想：递推、递归、穷举、贪心、分治、动态规划、迭代、分枝界限](http://www.360doc.com/content/23/1218/08/53675919_1107941804.shtml)
 
 1-3 经典算法
 
 经典排序：[插入排序、冒泡排序、快排（分划交换排序）、直接选择排序、堆排序、合并排序](/Java/十大经典排序算法总结.md)
 
-经典查找：顺序查找、二分查找、二叉排序树查找
+[经典查找：顺序查找、二分查找、二叉排序树查找](https://blog.csdn.net/xy010902100449/article/details/46537329)
 
 1-4 高级数据结构
 
@@ -51,7 +51,7 @@ I hope I can keep going.
 
 1-5 高级算法
 
-图的深度优先搜索、图的广度优先搜索、拓扑排序、Dijkstra算法（单源最短路径）、霍夫曼编码、辗转相除法、最小生成树等
+[图的深度优先搜索、图的广度优先搜索、拓扑排序](https://blog.csdn.net/u012060033/article/details/123052453)、Dijkstra算法（单源最短路径）、霍夫曼编码、辗转相除法、最小生成树等
 
 ## 二：Java语言基础
 诞生不过二十余年的Java语言凭借其跨平台、面向对象、适合于分布式计算的特性，广泛应用于Web网站、移动设备、桌面应用中，并且已经连续多年稳居TOBIE编程语言排行榜前列，最近更是登上冠军宝座。Java有哪些优秀而又与众不同的地方首先一定要清楚。
@@ -74,9 +74,9 @@ I hope I can keep going.
 
 2-2 重要：集合类
 
-Collection以及各种List、Set、Queue、Map的实现以及集成关系，实现原理
+[Collection以及各种List、Set、Queue、Map的实现以及集成关系，实现原理](https://www.cnblogs.com/cy0628/p/15272417.html)
 
-Collections和Arrays
+[Collections和Arrays](https://www.jianshu.com/p/d8cc12428cc7)
 
 [Java遍历map中value值](/Java/Java遍历map中value值.md)
 
