@@ -51,7 +51,7 @@ I hope I can keep going.
 
 1-5 高级算法
 
-[图的深度优先搜索、图的广度优先搜索、拓扑排序](https://blog.csdn.net/u012060033/article/details/123052453)、Dijkstra算法（单源最短路径）、霍夫曼编码、辗转相除法、最小生成树等
+[图的深度优先搜索、图的广度优先搜索、拓扑排序](https://blog.csdn.net/u012060033/article/details/123052453)、[Dijkstra算法（单源最短路径）](https://blog.csdn.net/m0_68805093/article/details/132308931)、霍夫曼编码、辗转相除法、最小生成树等
 
 ## 二：Java语言基础
 诞生不过二十余年的Java语言凭借其跨平台、面向对象、适合于分布式计算的特性，广泛应用于Web网站、移动设备、桌面应用中，并且已经连续多年稳居TOBIE编程语言排行榜前列，最近更是登上冠军宝座。Java有哪些优秀而又与众不同的地方首先一定要清楚。
