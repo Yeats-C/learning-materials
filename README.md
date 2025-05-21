@@ -122,7 +122,7 @@ this关键字，[final关键字](/Java/final,finally,finalize.md)，[static关�
 
 对象的多态性（子类和父类之间的转换、父类纸箱子类的引用），抽象类和接口在多态中的应用
 
-2-5 JVM内存模型、[垃圾回收](/Java/GC学习.md)
+2-5 JVM内存模型、[垃圾回收](/Java/GC学习.md) 、[G1 Gc](/Java/G1GC.md)
 
 2-6 关于异常
 
