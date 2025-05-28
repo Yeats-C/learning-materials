@@ -305,7 +305,7 @@ spring（IoC、AOP等），SpringMVC
 
 单元测试：JUnit
 
-消息队列：ActiveMQ、RabbitMQ等
+消息队列：ActiveMQ、RabbitMQ、[NATS](/article/Nats.md)等
 
 负载均衡：Nginx/HaProxy
 
