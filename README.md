@@ -477,6 +477,7 @@ CTO：
 
 [Type handler was null on parameter mapping for property '__frch_item_0'. It was either not specified](https://blog.csdn.net/li963820454/article/details/94384275)
 
+[Mabatis不要使用--](/Java/Mabatis不要使用--.md)
 
 
 
