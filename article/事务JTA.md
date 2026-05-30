@@ -1,40 +1,51 @@
-# 事务JTA
+# JTA 事务指的是什么
 
-## 概念
+## 📌 [JTA](ca://s?q=JTA是什么)
+- 全称 **Java Transaction API**。  
+- 是 Java EE（现 Jakarta EE）提供的一套 **事务管理标准 API**。  
+- 用于在分布式环境中管理事务，确保多个资源（如数据库、消息队列等）的操作要么全部成功，要么全部失败。  
+- 解决了跨多个系统或资源的 **分布式事务一致性问题**。
 
-事务JTA 是 JavaWeb 技术体系中的一个知识点。JavaWeb 的核心是请求、响应、会话、协议、服务器、业务处理和数据访问之间的协作。
+---
 
-学习时应把它放在一次 HTTP 请求的链路中理解：浏览器或客户端发起请求，服务器接收并分发，业务代码处理，最后返回页面、JSON 或其他响应。
+## 🔎 核心特性
+- **[统一接口](ca://s?q=JTA统一接口)**：提供标准化 API，屏蔽底层事务实现的差异。  
+- **[分布式事务](ca://s?q=JTA分布式事务)**：支持跨多个资源的事务管理。  
+- **[两阶段提交](ca://s?q=JTA两阶段提交)**：通过协调器实现事务的提交与回滚，保证数据一致性。  
+- **[与容器集成](ca://s?q=JTA与JavaEE集成)**：常与应用服务器（如 JBoss、WebLogic、GlassFish）结合使用。  
 
-## 学习重点
+---
 
-- 理解它在 Web 请求链路中的位置。
-- 关注协议、状态、编码、性能和安全边界。
-- 结合真实项目排查请求失败、响应慢、会话丢失等问题。
-
-## 使用场景
-
-- 面试复习时，用于梳理概念、边界和常见追问。
-- 项目开发时，用于判断技术选型、代码写法和排查方向。
-- 线上问题处理时，用于快速定位相关模块和可能风险。
-
-## 示例
-
+## 📊 使用示例
 ```java
-// 示例：用一个最小入口观察当前知识点的运行方式。
-public class Example {
-    public static void main(String[] args) {
-        System.out.println("learn " + Example.class.getSimpleName());
+import javax.transaction.UserTransaction;
+import javax.naming.InitialContext;
+
+public class TransactionDemo {
+    public void doBusiness() throws Exception {
+        UserTransaction ut = (UserTransaction)new InitialContext().lookup("java:comp/UserTransaction");
+        try {
+            ut.begin();
+            // 执行数据库操作或消息队列操作
+            ut.commit(); // 提交事务
+        } catch (Exception e) {
+            ut.rollback(); // 回滚事务
+        }
     }
 }
 ```
 
-## 常见问题
+UserTransaction → JTA 提供的事务接口。
 
-- 分布式事务范围过大，锁和资源占用时间过长。
-- 参与者超时或部分失败后补偿流程不清晰。
-- 能用本地事务或最终一致解决的问题，过早引入 JTA。
+begin() → 开启事务。
 
-## 总结
+commit() → 提交事务。
 
-事务JTA 要放在完整请求链路中理解，重点关注协议、状态、编码、安全、性能以及与后端服务的边界。
+rollback() → 回滚事务。
+
+## 📊 总结
+JTA 是 Java EE 的标准事务管理 API，主要用于 分布式事务。
+
+它通过 统一接口 和 两阶段提交协议，保证多个资源操作的一致性。
+
+在企业级应用中，JTA 常与 数据库、消息队列、应用服务器 集成，确保复杂系统的数据可靠性。
