@@ -1,40 +1,44 @@
 # JSP、JavaBean、Servlet、EL、JSTL、TagLib
 
-## 概念
+## 📌 [JSP](ca://s?q=JSP是什么)
+- 全称 **JavaServer Pages**。  
+- 一种基于 Java 的动态网页技术，可以在 HTML 中嵌入 Java 代码。  
+- 常用于生成动态内容，结合 Servlet 一起工作。
 
-JSP、JavaBean、Servlet、EL、JSTL、TagLib 是 JavaWeb 技术体系中的一个知识点。JavaWeb 的核心是请求、响应、会话、协议、服务器、业务处理和数据访问之间的协作。
+## 📌 [JavaBean](ca://s?q=JavaBean是什么)
+- 一种符合特定规范的 Java 类（需有无参构造方法、属性私有、提供 getter/setter）。  
+- 用来封装数据和业务逻辑，常作为 JSP 与 Servlet 之间的数据载体。  
+- 在 MVC 模式中通常充当 **Model**。
 
-学习时应把它放在一次 HTTP 请求的链路中理解：浏览器或客户端发起请求，服务器接收并分发，业务代码处理，最后返回页面、JSON 或其他响应。
+## 📌 [Servlet](ca://s?q=Servlet是什么)
+- 一种运行在服务器端的 Java 程序，用来处理客户端请求并生成响应。  
+- 是 JSP 的底层支持技术，JSP 最终会被编译成 Servlet。  
+- 在 MVC 模式中通常充当 **Controller**。
 
-## 学习重点
+## 📌 [EL 表达式](ca://s?q=EL表达式是什么)
+- 全称 **Expression Language**。  
+- 用于在 JSP 页面中简化数据访问，替代复杂的 Java 代码。  
+- 例如：`${user.name}` 可以直接访问作用域中的对象属性。
 
-- 理解它在 Web 请求链路中的位置。
-- 关注协议、状态、编码、性能和安全边界。
-- 结合真实项目排查请求失败、响应慢、会话丢失等问题。
+## 📌 [JSTL](ca://s?q=JSTL是什么)
+- 全称 **JavaServer Pages Standard Tag Library**。  
+- 提供一组标准标签库，用来简化 JSP 页面开发。  
+- 包含核心标签（流程控制）、格式化标签、SQL 标签、XML 标签等。  
+- 例如 `<c:forEach>` 用来遍历集合。
 
-## 使用场景
+## 📌 [TagLib](ca://s?q=TagLib是什么)
+- 全称 **Tag Library**，即标签库。  
+- JSP 中的扩展机制，可以自定义标签来封装复杂逻辑。  
+- JSTL 就是一个标准的 TagLib，而开发者也可以编写自定义标签库。
 
-- 面试复习时，用于梳理概念、边界和常见追问。
-- 项目开发时，用于判断技术选型、代码写法和排查方向。
-- 线上问题处理时，用于快速定位相关模块和可能风险。
+---
 
-## 示例
+## 💡 总结
+- **JSP** → 动态网页技术。  
+- **JavaBean** → 封装数据与逻辑的组件。  
+- **Servlet** → 处理请求和响应的服务器端程序。  
+- **EL** → 简化 JSP 中的数据访问。  
+- **JSTL** → 标准标签库，简化 JSP 开发。  
+- **TagLib** → 标签库机制，支持自定义标签。  
 
-```java
-// 示例：用一个最小入口观察当前知识点的运行方式。
-public class Example {
-    public static void main(String[] args) {
-        System.out.println("learn " + Example.class.getSimpleName());
-    }
-}
-```
-
-## 常见问题
-
-- JSP 中写大量 Java 代码，页面和业务逻辑耦合。
-- Servlet 线程共享成员变量，导致并发数据污染。
-- EL/JSTL 表达式空值处理不当，页面渲染出现异常或空白。
-
-## 总结
-
-JSP、JavaBean、Servlet、EL、JSTL、TagLib 要放在完整请求链路中理解，重点关注协议、状态、编码、安全、性能以及与后端服务的边界。
+它们共同构成了 **Java Web 开发的基础技术体系**，在 MVC 模式中分别承担不同角色，帮助开发者快速构建动态 Web 应用。
