@@ -49,5 +49,3 @@ Solr → 基于 Lucene 的搜索服务器，提供完整的企业级搜索解决
 关系可以理解为：Lucene 是内核，Solr 是包装好的产品。
 
 
-writer.addDocument(doc);
-writer.close();
