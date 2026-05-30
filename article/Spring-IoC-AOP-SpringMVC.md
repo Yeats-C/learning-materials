@@ -1,42 +1,48 @@
-# Spring IoC、AOP与SpringMVC
+# Spring IoC、AOP 与 SpringMVC 指的是什么
 
-## 概念
+## 📌 [Spring IoC](ca://s?q=Spring_IoC是什么)
+- **IoC（Inversion of Control，控制反转）** 是 Spring 的核心思想之一。  
+- 通过 **依赖注入（Dependency Injection, DI）** 将对象的创建与依赖关系交由容器管理，而不是由代码主动控制。  
+- 特点：  
+  - 降低耦合度。  
+  - 提高代码的可维护性与可测试性。  
+  - 由 Spring 容器负责对象的生命周期与依赖管理。  
 
-Spring 的核心是 IoC 和 AOP。IoC 把对象创建和依赖管理交给容器，常见方式是构造器注入、setter 注入和字段注入；AOP 用切面封装横切逻辑，例如日志、权限、事务。
+---
 
-SpringMVC 是 Web MVC 框架，核心流程是请求进入 DispatcherServlet，通过 HandlerMapping 找到 Controller，再由 HandlerAdapter 调用方法，最终返回 ModelAndView 或 JSON 响应。
+## 📌 [Spring AOP](ca://s?q=Spring_AOP是什么)
+- **AOP（Aspect-Oriented Programming，面向切面编程）** 是一种补充 OOP 的编程思想。  
+- 在不修改业务逻辑代码的情况下，通过切面实现横切关注点（如日志、事务、安全）。  
+- 特点：  
+  - 使用 **切点（Pointcut）** 定义拦截位置。  
+  - 使用 **通知（Advice）** 定义增强逻辑。  
+  - 常见应用：日志记录、性能监控、事务管理。  
 
-## 学习重点
+---
 
-- 先理解核心模型，再看配置和扩展点。
-- 区分框架默认行为和项目自定义行为。
-- 排查问题时从日志、配置、依赖版本和运行环境入手。
+## 📌 [SpringMVC](ca://s?q=SpringMVC是什么)
+- **SpringMVC** 是 Spring 框架中的 **Web 层框架**，基于 MVC 模式实现。  
+- 特点：  
+  - **Model**：封装数据与业务逻辑。  
+  - **View**：展示数据（通常是 JSP、Thymeleaf）。  
+  - **Controller**：处理请求，调用业务逻辑并返回结果。  
+- 通过 **DispatcherServlet** 作为前端控制器，统一分发请求。  
+- 支持 RESTful 风格接口，常用于 Web 应用开发。  
 
-## 使用场景
+---
 
-- 面试复习时，用于梳理概念、边界和常见追问。
-- 项目开发时，用于判断技术选型、代码写法和排查方向。
-- 线上问题处理时，用于快速定位相关模块和可能风险。
+## 🔎 核心特点对比
 
-## 示例
+| 概念 | **作用** | **特点** | **应用场景** |
+|------|----------|----------|--------------|
+| **IoC** | 控制反转，依赖注入 | 降低耦合度，容器管理对象 | Bean 管理、依赖注入 |
+| **AOP** | 面向切面编程 | 横切关注点，增强逻辑 | 日志、事务、安全 |
+| **SpringMVC** | Web 层框架 | 基于 MVC 模式，前端控制器 | Web 应用、REST API |
 
-```java
-@Service
-public class UserService {
-    private final UserRepository userRepository;
+---
 
-    public UserService(UserRepository userRepository) {
-        this.userRepository = userRepository;
-    }
-}
-```
-
-## 常见问题
-
-- 字段注入导致依赖不清晰，测试和构造对象困难。
-- 切面顺序不明确，日志、权限、事务执行顺序和预期不一致。
-- Controller 承担过多业务逻辑，导致 Web 层和业务层耦合。
-
-## 总结
-
-Spring 的核心价值是管理对象关系和横切逻辑；SpringMVC 负责请求分发，业务复杂度应沉到 service 层并保持边界清晰。
+## 💡 总结
+- **Spring IoC**：解决对象依赖管理问题，提升可维护性。  
+- **Spring AOP**：解决横切逻辑问题，提升代码复用性与可扩展性。  
+- **SpringMVC**：解决 Web 层请求处理问题，提供 MVC 架构支持。  
+- 三者结合构成了 **Spring 框架的核心体系**，支持从底层依赖管理到 Web 层开发的完整解决方案。  
