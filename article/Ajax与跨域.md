@@ -1,40 +1,45 @@
-# Ajax与跨域
+# Java 中的 Ajax 与跨域
 
-## 概念
+## 📌 什么是 Ajax
+- **[Ajax](ca://s?q=Java_Ajax是什么)**（Asynchronous JavaScript and XML）是一种在网页中与服务器进行异步交互的技术。  
+- 它允许在不刷新整个页面的情况下，向服务器发送请求并获取数据，从而提升用户体验。  
+- 在 Java Web 中，Ajax 通常通过前端 JavaScript 发起请求，后端 Servlet、Spring MVC 等来处理响应。
 
-Ajax与跨域 是 JavaWeb 技术体系中的一个知识点。JavaWeb 的核心是请求、响应、会话、协议、服务器、业务处理和数据访问之间的协作。
+---
 
-学习时应把它放在一次 HTTP 请求的链路中理解：浏览器或客户端发起请求，服务器接收并分发，业务代码处理，最后返回页面、JSON 或其他响应。
+## 📌 什么是跨域
+- **[同源策略](ca://s?q=浏览器同源策略)**：浏览器安全机制，要求协议、域名、端口一致才能访问资源。  
+- **跨域场景**：  
+  - `http://a.com:8080` 调用 `http://a.com:8081` → **端口不同**，跨域。  
+  - `http://a.com` 调用 `https://a.com` → **协议不同**，跨域。  
+  - `http://a.com` 调用 `http://b.com` → **域名不同**，跨域。  
 
-## 学习重点
+---
 
-- 理解它在 Web 请求链路中的位置。
-- 关注协议、状态、编码、性能和安全边界。
-- 结合真实项目排查请求失败、响应慢、会话丢失等问题。
+## 🔎 常见跨域解决方案
 
-## 使用场景
+| 方法 | 原理 | 优缺点 |
+|------|------|--------|
+| **[CORS](ca://s?q=Java_CORS跨域解决方案)** | 服务端在响应头加 `Access-Control-Allow-Origin`，允许指定域访问 | 最标准，支持多种请求；需服务端支持 |
+| **[JSONP](ca://s?q=Java_JSONP跨域解决方案)** | 利用 `<script>` 标签可跨域加载 JS，返回执行回调函数 | 只支持 GET；实现简单但功能有限 |
+| **[反向代理/Nginx](ca://s?q=Nginx_反向代理跨域解决)** | 前端请求同源地址，由代理服务器转发到目标域 | 性能好，常用于生产环境；需额外配置 |
+| **[后端转发](ca://s?q=Java_后端HttpClient跨域转发)** | Ajax 请求本地后端，再由后端调用跨域服务 | 安全性高，但增加一次请求，效率较低 |
 
-- 面试复习时，用于梳理概念、边界和常见追问。
-- 项目开发时，用于判断技术选型、代码写法和排查方向。
-- 线上问题处理时，用于快速定位相关模块和可能风险。
+---
 
-## 示例
+## 📊 Java 中的实现示例
 
-```java
-// 示例：用一个最小入口观察当前知识点的运行方式。
-public class Example {
-    public static void main(String[] args) {
-        System.out.println("learn " + Example.class.getSimpleName());
-    }
-}
-```
-
-## 常见问题
-
-- 把跨域问题误认为后端接口不可用，没有检查浏览器控制台 CORS 报错。
-- 只配置 Access-Control-Allow-Origin，忽略方法、请求头和凭证配置。
-- 前端超时、后端超时、网关超时配置不一致，导致问题定位困难。
-
-## 总结
-
-Ajax与跨域 要放在完整请求链路中理解，重点关注协议、状态、编码、安全、性能以及与后端服务的边界。
+### 1. 使用 CORS Filter
+```xml
+<filter>
+  <filter-name>CORS</filter-name>
+  <filter-class>com.thetransactioncompany.cors.CORSFilter</filter-class>
+  <init-param>
+    <param-name>cors.allowOrigin</param-name>
+    <param-value>*</param-value>
+  </init-param>
+</filter>
+<filter-mapping>
+  <filter-name>CORS</filter-name>
+  <url-pattern>/*</url-pattern>
+</filter-mapping>
