@@ -1,40 +1,37 @@
-# JSF
+# JSF 指的是什么
 
-## 概念
+## 📌 [JSF](ca://s?q=JSF是什么)
+- 全称 **JavaServer Faces**，是 Java EE（现 Jakarta EE）中的一个 **Web 应用框架**。  
+- 它基于 **MVC 模式**，用于简化 Web 界面的开发，提供组件化的 UI 构建方式。  
+- JSF 通过 **可复用的 UI 组件** 和 **事件驱动模型**，让开发者更容易构建交互式 Web 应用。
 
-JSF 是 JavaWeb 技术体系中的一个知识点。JavaWeb 的核心是请求、响应、会话、协议、服务器、业务处理和数据访问之间的协作。
+---
 
-学习时应把它放在一次 HTTP 请求的链路中理解：浏览器或客户端发起请求，服务器接收并分发，业务代码处理，最后返回页面、JSON 或其他响应。
+## 🔎 核心特性
+- **[组件化开发](ca://s?q=JSF组件化开发)**：提供丰富的 UI 组件（表单、表格、按钮等），支持自定义组件。  
+- **[事件处理](ca://s?q=JSF事件处理机制)**：支持基于事件的编程模型，类似桌面应用的事件监听。  
+- **[与后端集成](ca://s?q=JSF与后端集成)**：能与 EJB、JPA 等 Java EE 技术无缝结合。  
+- **[导航机制](ca://s?q=JSF导航机制)**：通过配置文件或注解定义页面跳转逻辑。  
+- **[模板与标签库](ca://s?q=JSF标签库)**：支持 Facelets 模板和自定义标签库，提升页面复用性。  
 
-## 学习重点
+---
 
-- 理解它在 Web 请求链路中的位置。
-- 关注协议、状态、编码、性能和安全边界。
-- 结合真实项目排查请求失败、响应慢、会话丢失等问题。
-
-## 使用场景
-
-- 面试复习时，用于梳理概念、边界和常见追问。
-- 项目开发时，用于判断技术选型、代码写法和排查方向。
-- 线上问题处理时，用于快速定位相关模块和可能风险。
-
-## 示例
-
-```java
-// 示例：用一个最小入口观察当前知识点的运行方式。
-public class Example {
-    public static void main(String[] args) {
-        System.out.println("learn " + Example.class.getSimpleName());
-    }
-}
+## 📊 使用示例
+```xhtml
+<h:form>
+  <h:inputText value="#{userBean.name}" />
+  <h:commandButton value="提交" action="#{userBean.save}" />
+</h:form>
 ```
+h:form → 表单组件
 
-## 常见问题
+h:inputText → 输入框，绑定到 userBean.name 属性
 
-- 组件生命周期理解不清，表单提交和校验顺序出现问题。
-- 组件状态过重，页面复杂后调试困难。
-- 与前后端分离模式混用时边界不清。
+h:commandButton → 按钮，触发 userBean.save 方法
 
-## 总结
+## 📊 总结
+JSF 是 Java EE 的标准 Web 框架，强调 组件化 UI 和 事件驱动开发。
 
-JSF 要放在完整请求链路中理解，重点关注协议、状态、编码、安全、性能以及与后端服务的边界。
+它适合企业级应用，尤其是需要与其他 Java EE 技术（EJB、JPA、JMS 等）集成的场景。
+
+在现代开发中，虽然 Spring MVC、Spring Boot、前端框架（React/Vue/Angular） 更流行，但 JSF 仍在一些传统企业系统中使用。
