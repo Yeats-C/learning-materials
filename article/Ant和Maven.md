@@ -30,3 +30,31 @@
     <javac srcdir="src" destdir="build/classes"/>
   </target>
 </project>
+```
+
+### Maven 构建文件（pom.xml）
+
+```java
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.example</groupId>
+  <artifactId>demo</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+```
+
+## 📌 总结
+
+Ant：更像一个脚本工具，灵活但繁琐，适合自定义复杂构建流程。
+
+Maven：主流的项目管理工具，自动化依赖管理和标准化构建流程，适合大多数 Java 项目。
+
+在现代开发中，Maven 已经取代 Ant 成为主流，而后续的 Gradle 更进一步结合了两者的优点。
