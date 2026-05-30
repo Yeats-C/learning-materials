@@ -2,39 +2,48 @@
 
 ## 概念
 
-EJB 是 JavaWeb 技术体系中的一个知识点。JavaWeb 的核心是请求、响应、会话、协议、服务器、业务处理和数据访问之间的协作。
+在 Java 里，EJB 指的是 Enterprise JavaBeans，它是早期 J2EE（现 Jakarta EE） 规范中的一个核心组件，用来简化和标准化企业级应用的开发。
 
-学习时应把它放在一次 HTTP 请求的链路中理解：浏览器或客户端发起请求，服务器接收并分发，业务代码处理，最后返回页面、JSON 或其他响应。
+企业级组件  
+EJB 是一种服务器端组件，用来封装业务逻辑，运行在应用服务器（如 JBoss、GlassFish、WebLogic）里。
 
-## 学习重点
+分布式支持  
+它天然支持分布式系统，可以让不同客户端通过远程调用访问同一个业务逻辑。
 
-- 理解它在 Web 请求链路中的位置。
-- 关注协议、状态、编码、性能和安全边界。
-- 结合真实项目排查请求失败、响应慢、会话丢失等问题。
+事务管理  
+内置事务处理机制，开发者不用手写复杂的事务代码。
 
-## 使用场景
+安全性  
+提供声明式安全控制，方便在企业应用中管理权限。
 
-- 面试复习时，用于梳理概念、边界和常见追问。
-- 项目开发时，用于判断技术选型、代码写法和排查方向。
-- 线上问题处理时，用于快速定位相关模块和可能风险。
+生命周期管理  
+容器负责创建、销毁和管理 EJB 对象，开发者只需关注业务逻辑。
+
+## 类型
+
+Session Bean  
+封装业务逻辑，分为 Stateless（无状态）、Stateful（有状态）、Singleton（单例）。
+
+Message-Driven Bean  
+用来处理异步消息（如 JMS），常用于消息队列系统。
+
+Entity Bean  
+早期用来表示数据库实体，但后来被 JPA 替代。
 
 ## 示例
 
 ```java
-// 示例：用一个最小入口观察当前知识点的运行方式。
-public class Example {
-    public static void main(String[] args) {
-        System.out.println("learn " + Example.class.getSimpleName());
+@Stateless
+public class OrderServiceBean implements OrderService {
+    public void placeOrder(Order order) {
+        // 业务逻辑：保存订单、处理支付等
     }
 }
 ```
+这里的 @Stateless 表示这是一个无状态的 Session Bean，由容器管理生命周期和事务。
 
-## 常见问题
-
-- 重量级容器依赖强，部署和调试复杂。
-- 事务、远程调用、安全配置分散，问题定位成本高。
-- 在现代 Spring 体系项目中引入 EJB 需要评估维护收益。
 
 ## 总结
 
-EJB 要放在完整请求链路中理解，重点关注协议、状态、编码、安全、性能以及与后端服务的边界。
+EJB 的目标是让开发者专注于业务逻辑，而把 事务、安全、分布式调用 等复杂问题交给容器处理。
+不过，随着 Spring 等轻量级框架的流行，EJB 在现代开发中使用得越来越少，但它仍然是理解 Java 企业级开发历史 的重要一环。
